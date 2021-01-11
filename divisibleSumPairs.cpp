@@ -27,34 +27,3 @@ int main(){
     cout<< count <<endl;
     return 0;
 }
-
-
-// #include <iostream>
-
-// using namespace std;
-
-// int n=5,k=2;
-// int num[20];
-
-// void permutation(int at, int last){
-//     int i;
-//     if(last > n-at+1) return;
-//     if(at == n+1){
-//         for( i = 1; i <= k; i++){
-//             cout<< num[i]<<" ";
-//         }cout <<endl;
-//         return ;
-//     }
-
-//     if(last){
-//         num[k-last+1] = at;
-//         permutation(at+1,last-1);
-//     }
-
-//     permutation(at+1,last);
-// }
-
-// int main(){
-//     permutation(1,k);
-//     return 0;
-// }
